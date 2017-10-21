@@ -2,7 +2,9 @@
 <resources>
     <color name="colorPrimary">#000000</color>
     <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#111111</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="text01">#549109</color>
 
     <color name="grey01">#050505</color>
     <color name="grey02">#101010</color>
@@ -18,4 +20,10 @@
     <color name="ice05">#88babe</color>
     <color name="ice06">#c6ebed</color>
 
+    <color name="fire01">#4e0d03</color>
+    <color name="fire02">#862811</color>
+    <color name="fire03">#b3580a</color>
+    <color name="fire04">#bf8029</color>
+    <color name="fire05">#dfad23</color>
+    <color name="fire06">#ecd610</color>
 </resources>
