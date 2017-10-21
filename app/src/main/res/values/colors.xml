@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#111111</color>
+
+    <color name="grey01">#050505</color>
+    <color name="grey02">#101010</color>
+    <color name="grey03">#151515</color>
+    <color name="grey04">#202020</color>
+    <color name="grey05">#252525</color>
+    <color name="grey06">#303030</color>
+
+    <color name="ice01">#263464</color>
+    <color name="ice02">#265264</color>
+    <color name="ice03">#356c71</color>
+    <color name="ice04">#5d9a9f</color>
+    <color name="ice05">#88babe</color>
+    <color name="ice06">#c6ebed</color>
+
+</resources>
