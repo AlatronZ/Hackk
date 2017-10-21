@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
 
     android:background="@color/grey02"
-    android:layout_marginBottom="16dp">
+    android:layout_marginBottom="@dimen/padding">
     <ImageView
         android:id="@+id/checkpointImage"
         android:src="@mipmap/ic_launcher_round"
@@ -16,13 +16,13 @@
         android:text="@string/empty_checkpoint"
 
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/spacer_small"
 
         android:gravity="center"
 
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_toRightOf="@+id/checkpointImage"
-        android:layout_toEndOf="@+id/checkpointImage" />
+        android:layout_toRightOf="@id/checkpointImage"
+        android:layout_toEndOf="@id/checkpointImage" />
 </RelativeLayout>

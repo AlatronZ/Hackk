@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/grey02"
 
-    android:padding="16dp"
+    android:padding="@dimen/padding"
 
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -12,7 +12,7 @@
         android:id="@+id/linearLayout"
 
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/spacer_small"
 
         android:orientation="horizontal"
 
@@ -54,7 +54,7 @@
         android:background="@color/grey03"
 
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="@dimen/spacer_small"
 
         android:orientation="vertical"
 
@@ -65,7 +65,7 @@
         <Button
             android:id="@+id/button"
             android:layout_width="174dp"
-            android:layout_height="50dp"
+            android:layout_height="@dimen/spacer_small"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"/>
     </RelativeLayout>
@@ -83,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="16dp">
+            android:padding="@dimen/spacer_small">
         </LinearLayout>
     </ListView>
 
